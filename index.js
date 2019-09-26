@@ -25,6 +25,6 @@ function driversByRevenue(drivers){
 function driversByName(drivers){
   const copiedArray = [...drivers];
   return copiedArray.sort(function(a,b){
-    return a.name - b.name;
+    return a.name < b.name;
   });
 }
