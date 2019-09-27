@@ -34,3 +34,8 @@ function totalRevenue(drivers){
     return sum + driver.revenue;
   }, 0);
 }
+
+function averageRevenue(drivers){
+  
+  let totalCost = totalRevenue(drivers)
+}
