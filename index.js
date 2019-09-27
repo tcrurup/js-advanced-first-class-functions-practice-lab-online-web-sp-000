@@ -28,3 +28,8 @@ function driversByName(drivers){
     return a.name > b.name;
   });
 }
+
+function totalRevenue(drivers){
+  return drivers.reduce(function())
+
+}
